@@ -89,7 +89,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="overflow-hidden font-nunito">
+      <main className="overflow-hidden font-nunito flex flex-col">
         <Toolbar />
         <Profile />
         <About />
