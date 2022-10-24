@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="499.92755mm"
+   height="342.05905mm"
+   viewBox="0 0 499.92755 342.05905"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="hero.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#1b1f27"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.30061022"
+     inkscape:cx="944.74498"
+     inkscape:cy="645.35396"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     borderlayer="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3706">
+      <stop
+         style="stop-color:#d3bc5f;stop-opacity:0.49931726"
+         offset="0"
+         id="stop3702" />
+      <stop
+         style="stop-color:#d3bc5f;stop-opacity:0.24909341"
+         offset="1"
+         id="stop3704" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3076">
+      <stop
+         style="stop-color:#c8ab37;stop-opacity:0.59049571"
+         offset="0"
+         id="stop3072" />
+      <stop
+         style="stop-color:#c8ab37;stop-opacity:0.23480567"
+         offset="1"
+         id="stop3074" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1928">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 10.493792,-180.32892 c -73.755434,66.82374 -182.170562,33.2109 -217.467012,122.083077 C -242.26967,30.626324 -146.93876,119.4383 -58.804127,115.78149 29.330538,112.12471 62.622,66.480963 157.49748,45.172692 252.37296,23.86441 290.69955,-74.208168 248.49716,-158.05881 206.29477,-241.90945 84.2492,-247.15267 10.493792,-180.32892 Z"
+         id="path1930"
+         sodipodi:nodetypes="zzzzzz" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3076"
+       id="linearGradient3078"
+       x1="239.02293"
+       y1="36.958805"
+       x2="291.15659"
+       y2="-70.141151"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3706"
+       id="linearGradient3708"
+       x1="99.684303"
+       y1="90.050568"
+       x2="-96.720726"
+       y2="-197.10844"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(214.50869,226.16838)">
+    <path
+       style="fill:url(#linearGradient3708);stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 173.61351,-181.5994 c -83.166303,19.27294 -173.08530784,-36.74776 -251.506934,11.09285 -67.181746,34.15817 -113.878246,127.5382 -66.831516,195.453617 42.77615,60.099816 122.559775,69.149476 190.47568,73.960429 74.25656,0.522907 144.51066,-45.448288 174.16862,-113.561052 31.8024,-49.427866 45.5325,-141.164814 -21.36944,-167.545264 -8.12303,-2.26599 -16.93818,-2.14987 -24.93641,0.59942 z"
+       id="path2311" />
+    <path
+       style="fill:url(#linearGradient3078);stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 158.98143,-178.95349 c -88.495918,14.33445 -178.583383,6.96467 -267.04446,13.37691 -95.70199,10.43905 -130.07055,133.231497 -61.04714,196.8205 66.90939,79.66961 173.774457,38.578844 259.035483,23.644194 78.621237,1.190126 193.030577,4.707661 195.169357,-105.1265 5.68419,-64.599834 -64.4505,-128.843794 -126.11324,-128.715104 z"
+       id="path1965" />
+    <image
+       width="677.33331"
+       height="381"
+       preserveAspectRatio="none"
+       style="stroke:none;image-rendering:optimizeQuality"
+       xlink:href="masjid-pogung-dalangan-Krg7uLvwoWQ-unsplash.jpg"
+       id="image859"
+       x="-376.68237"
+       y="-236.2216"
+       clip-path="url(#clipPath1928)" />
+  </g>
+</svg>
