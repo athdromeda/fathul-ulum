@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import { Zoom } from "react-reveal";
 
 const Card = ({ value, caption, emoji }) => {
-  const [val, setVal] = useState(-1*value);
+  const [val, setVal] = useState(-1 * value);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,9 +28,15 @@ const Card = ({ value, caption, emoji }) => {
 export default function Stat() {
   return (
     <div className="h-1/2 py-20 px-16 bg-dark text-white flex items-center justify-around">
-      <Card value={2034} emoji="👦" caption="Santri Aula" />
-      <Card value={1800} emoji="🧑" caption="Santri Wustha" />
-      <Card value={3458} emoji="👨‍🎓" caption="Santri Alumni" />
+      <Zoom>
+        <Card value={2034} emoji="👦" caption="Santri Aula" />
+      </Zoom>
+      <Zoom>
+        <Card value={1800} emoji="🧑" caption="Santri Wustha" />
+      </Zoom>
+      <Zoom>
+        <Card value={3458} emoji="👨‍🎓" caption="Santri Alumni" />
+      </Zoom>
     </div>
   );
 }
