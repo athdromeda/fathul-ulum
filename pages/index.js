@@ -12,12 +12,12 @@ const Toolbar = () => {
     <div className="z-50 flex w-screen flex-row bg-transparent justify-between text-primary text-lg py-8 px-16 absolute top-0">
       <section className="flex items-center gap-3">
         <Image src="/assets/logo/logo-teal.png" width="40px" height="40px"/>
-      <h1 className="font-semibold text-2xl">FATHUL ULUM</h1>
+      <h1 className="font-black text-2xl">FATHUL ULUM</h1>
       </section>
       <section className="flex gap-8">
-        <h3>TENTANG</h3>
-        <h3>KELAS</h3>
-        <h3>DAFTAR</h3>
+        <h3 className="font-bold">TENTANG</h3>
+        <h3 className="font-bold">KELAS</h3>
+        <h3 className="font-bold">DAFTAR</h3>
       </section>
     </div>
   );
@@ -28,9 +28,9 @@ const Profile = () => {
     <div className="h-screen py-20 px-16 bg-white text-dark flex items-center">
       <section className="flex flex-col gap-3 z-10 grow">
         <p className="text-6xl font-bold">
-          Ayo, mondok di <br />
-          <p className="text-7xl font-black leading-tight">FATHUL ULUM</p>
+          Ayo, mondok di 
         </p>
+          <p className="text-7xl font-black leading-tight">FATHUL ULUM</p>
         <p className="text-xl">
           Mengeksplor keilmuwan Islam berbasis kitab kuning
         </p>
@@ -52,10 +52,10 @@ const Images = () => {
   return (
     <section className="flex flex-wrap h-full w-1/2 items-center">
       <div className="relative w-full h-full">
-        <div className="absolute top-14 right-12">
+        <div className="absolute top-14 right-12 shadow-button">
           <Image src="/assets/image/image12.png" width="300px" height="300px" />
         </div>
-        <div className="absolute top-36 right-36">
+        <div className="absolute top-36 right-36 shadow-button">
           <Image src="/assets/image/image11.png" width="300px" height="300px" />
         </div>
       </div>

@@ -31,7 +31,7 @@ const Card = ({ id }) => {
       <section className="py-4 px-8 rounded-lg flex items-center">
         {CardData[id].icon}
       </section>
-      <div className="py-4 px-8 bg-white shadow-md rounded-lg w-80">
+      <div className="py-4 px-8 bg-white hover:shadow-button rounded-lg w-80">
         <p className="font-bold">{CardData[id].title}</p>
         <p>{CardData[id].caption}</p>
       </div>
