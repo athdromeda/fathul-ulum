@@ -40,7 +40,13 @@ const Card = ({ id }) => {
     <div className="min-w-[30vw] flex flex-col gap-4 m-4">
       <section className="flex gap-3">
         <div>
-          <Image src={TestimonyData[id].imagePath} width="50px" height="50px"/>
+          <a href={TestimonyData[id].imageUrl}>
+            <Image
+              src={TestimonyData[id].imagePath}
+              width="50px"
+              height="50px"
+            />
+          </a>
         </div>
         <div className="flex flex-col">
           <p className="font-bold">{TestimonyData[id].name}</p>
@@ -64,5 +70,3 @@ export default function Testimony() {
     </div>
   );
 }
-
-// https://unsplash.com/photos/KIPqvvTOC1s
