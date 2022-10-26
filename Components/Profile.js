@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen max-h-fit py-16 px-16 text-dark grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="min-h-screen max-h-fit py-16 px-16 bg-white text-dark grid grid-cols-1 md:grid-cols-2 gap-4">
       <MainText />
       <Images />
     </div>
