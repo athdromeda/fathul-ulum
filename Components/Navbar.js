@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="z-50 flex w-screen flex-wrap bg-transparent justify-center items-center md:justify-between text-primary text-lg py-8 px-16">
+    <div className="z-50 flex w-screen flex-wrap bg-transparent justify-center items-center md:justify-between text-primary text-lg pb-2 pt-4 px-16">
       <section className="flex items-center gap-3">
         <Image src="/assets/logo/logo-teal.png" width="40px" height="40px" />
         <h1 className="font-black text-2xl">FATHUL ULUM</h1>
