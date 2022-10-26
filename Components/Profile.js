@@ -23,10 +23,10 @@ const MainText = () => {
         </div>
       </Slide>
       <section>
-        <button className="py-3 px-6 bg-primary text-white rounded-lg font-bold m-2">
+        <button className="py-3 px-6 border-2 border-primary bg-white text-primary rounded-lg font-bold m-2">
           Eksplor
         </button>
-        <button className="py-3 px-6 bg-primary text-white rounded-lg font-bold m-2">
+        <button className="py-3 px-6 border-2 border-primary bg-primary text-white rounded-lg font-bold m-2">
           Daftar
         </button>
       </section>
