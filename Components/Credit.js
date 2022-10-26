@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Icon = ({ url }) => {
   return <Image src={url} width={20} height={20} />;
 };
@@ -13,7 +14,7 @@ const Credit = () => {
         </span>
         , react, nextjs, tailwind, react-icon, react-reveal, unsplash,
         <span className="bg-primary text-white px-1 cursor-pointer ">
-          and many more...
+          <Link href="/credit">and many more...</Link>
         </span>
       </p>
     </div>
