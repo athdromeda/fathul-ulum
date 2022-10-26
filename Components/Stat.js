@@ -27,7 +27,7 @@ const Card = ({ value, caption, emoji }) => {
 
 export default function Stat() {
   return (
-    <div className="h-1/2 py-20 px-16 bg-dark text-white flex items-center justify-around">
+    <div className="h-1/2 py-20 px-16 bg-dark text-white flex flex-wrap gap-8 items-center justify-around">
       <Zoom>
         <Card value={2034} emoji="👦" caption="Santri Aula" />
       </Zoom>

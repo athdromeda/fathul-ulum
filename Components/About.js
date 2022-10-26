@@ -20,12 +20,11 @@ const Card = ({ id }) => {
 
 export default function About() {
   return (
-    <div className="h-screen py-20 px-16 bg-white text-dark items-center">
-      <section className="flex justify-between">
+    <div className="h-screen py-20 px-16 bg-white text-dark items-center flex justify-between flex-col-reverse lg:flex-row ">
         <section className="flex flex-wrap h-full w-1/2 items-center">
           <div className="relative w-full h-full">
             <Slide right>
-              <div className="absolute top-36 right-36">
+              <div className="absolute top-36 right-36 shadow-button h-fit w-fit">
                 <Image
                   src="/assets/image/image22.png"
                   width="300px"
@@ -34,7 +33,7 @@ export default function About() {
               </div>
             </Slide>
             <Slide left>
-              <div className="absolute top-14 right-12">
+              <div className="absolute top-14 right-12 shadow-button h-fit w-fit">
                 <Image
                   src="/assets/image/image21.png"
                   width="300px"
@@ -49,7 +48,6 @@ export default function About() {
           <Card id={1} />
           <Card id={2} />
         </section>
-      </section>
     </div>
   );
 }
