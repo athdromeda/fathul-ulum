@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import About from "../Components/About";
-import Stat from "../Components/Stat";
 import Testimony from "../Components/Testimony";
 import EndPage from "../Components/EndPage";
 import Footer from "../Components/Footer";
@@ -21,7 +20,6 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
-        <Stat />
         <Testimony />
         <EndPage />
       </main>
