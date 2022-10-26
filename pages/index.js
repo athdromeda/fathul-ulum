@@ -6,7 +6,7 @@ import Testimony from "../Components/Testimony";
 import EndPage from "../Components/EndPage";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-import Profile from "../Components/Profile";
+import Hero from "../Components/Profile";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className="overflow-hidden font-nunito flex flex-col">
         <Navbar />
-        <Profile />
+        <Hero />
         <About />
         <Stat />
         <Testimony />

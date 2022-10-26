@@ -1,9 +1,9 @@
 import { Slide } from "react-reveal";
 import Image from "next/image";
 
-const Profile = () => {
+const Hero = () => {
   return (
-    <div className="h-screen py-16 px-16 bg-white text-dark flex items-center flex-col lg:flex-row">
+    <div className="min-h-screen max-h-fit py-16 px-16 text-dark grid grid-cols-1 md:grid-cols-2 gap-4">
       <MainText />
       <Images />
     </div>
@@ -12,11 +12,13 @@ const Profile = () => {
 
 const MainText = () => {
   return (
-    <section className="flex flex-col gap-3 z-10 grow items-center text-center md:items-start md:text-left">
+    <section className="flex flex-col gap-3 z-10 grow items-center text-center md:items-start justify-center md:text-left">
       <Slide left cascade>
         <div>
           <p className="text-6xl font-bold">Ayo, mondok di</p>
-          <p className="text-6xl md:text-7xl font-black leading-tight">FATHUL ULUM</p>
+          <p className="text-6xl md:text-7xl font-black leading-tight">
+            FATHUL ULUM
+          </p>
           <p className="text-xl">
             Mengeksplor keilmuwan Islam berbasis kitab kuning
           </p>
@@ -36,29 +38,19 @@ const MainText = () => {
 
 const Images = () => {
   return (
-    <section className="flex flex-wrap h-full w-1/2 items-center">
-      <div className="relative w-full h-full">
-        <Slide right>
-          <div className="absolute top-14 right-12 shadow-button">
-            <Image
-              src="/assets/image/image12.png"
-              width="300px"
-              height="300px"
-            />
-          </div>
-        </Slide>
-        <div className="absolute top-36 right-36 shadow-button">
-          <Slide left>
-            <Image
-              src="/assets/image/image11.png"
-              width="300px"
-              height="300px"
-            />
-          </Slide>
+    <section className="grid">
+      <Slide right>
+        <div className="second-image-hero">
+          <Image src="/assets/image/image12.png" layout="fill" objectFit="contain" />
         </div>
-      </div>
+      </Slide>
+      <Slide left>
+        <div className="first-image-hero">
+          <Image src="/assets/image/image11.png" layout="fill" objectFit="contain"/>
+        </div>
+      </Slide>
     </section>
   );
 };
 
-export default Profile;
+export default Hero;
