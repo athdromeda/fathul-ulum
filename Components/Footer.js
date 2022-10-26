@@ -4,7 +4,7 @@ import Credit from "./Credit";
 
 const Sitemap = () => {
   return (
-    <section className="flex flex-row gap-8">
+    <section className="flex justify-between w-full md:w-fit md:justify-start gap-8">
       <section>
         <p className="font-bold">TENTANG</p>
         <p>Linimasa</p>
@@ -26,29 +26,31 @@ const Sitemap = () => {
 
 const Details = () => {
   return (
-    <section className="flex flex-col gap-4">
-      <section className="flex flex-row gap-4">
-        <div>
-          <Image src="/assets/logo/logo-white.png" width={100} height={100} />
-        </div>
-        <div>
-          <p className="font-bold">PONDOK PESANTREN FATHUL ULUM</p>
-          <p>Jl. Lurus No. 24, Pekalongan, 51152</p>
-          <p>Telp/WA: 0899-9999-9999</p>
-          <p>Email: hello@fathululum.sch.id</p>
-        </div>
-      </section>
-      <section className="flex gap-4">
-        <a href="http://facebook.com/sapa.fathululum">
-          <BsFacebook size={25} />
-        </a>
-        <a href="http://instagram.com/media.fathululum">
-          <BsInstagram size={25} />
-        </a>
-        <a href="http://twitter.com/heyfathululum">
-          <BsTwitter size={25} />
-        </a>
-      </section>
+    <section className="flex flex-col md:flex-row gap-4">
+      <div className="min-h-fit">
+        <Image
+          src="/assets/logo/logo-white.png"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <div>
+        <p className="font-bold">PONDOK PESANTREN FATHUL ULUM</p>
+        <p>Jl. Lurus No. 24, Pekalongan, 51152</p>
+        <p>Telp/WA: 0899-9999-9999</p>
+        <p>Email: hello@fathululum.sch.id</p>
+        <section className="flex gap-4 mt-2">
+          <a href="http://facebook.com/sapa.fathululum">
+            <BsFacebook size={25} />
+          </a>
+          <a href="http://instagram.com/media.fathululum">
+            <BsInstagram size={25} />
+          </a>
+          <a href="http://twitter.com/heyfathululum">
+            <BsTwitter size={25} />
+          </a>
+        </section>
+      </div>
     </section>
   );
 };
@@ -60,7 +62,7 @@ export default function Footer() {
         <Details />
         <Sitemap />
       </section>
-      <Credit/>
+      <Credit />
     </footer>
   );
 }

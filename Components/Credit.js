@@ -4,14 +4,18 @@ const Icon = ({ url }) => {
 };
 const Credit = () => {
   return (
-    <div className="flex gap-1 opacity-30 hover:opacity-100 items-center">
-      <p>{"Built with "}</p>
-      <span class="flex">
-        <span class="animate-ping absolute inline-flex">❤️</span>
-        <span class="relative inline-flex">❤️</span>
-      </span>
-      <section>, react, nextjs, tailwind, react-icon, react-reveal, unsplash,</section>
-      <button className="bg-primary text-white px-1 ">and many more...</button>
+    <div className="opacity-30 hover:opacity-100 inline-flex text-center">
+      <p>
+        {"Built with "}
+        <span class="inline-flex">
+          <span class="animate-ping absolute inline-flex">❤️</span>
+          <span class="relative inline-flex">❤️</span>
+        </span>
+        , react, nextjs, tailwind, react-icon, react-reveal, unsplash,
+        <span className="bg-primary text-white px-1 cursor-pointer ">
+          and many more...
+        </span>
+      </p>
     </div>
   );
 };
