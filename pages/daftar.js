@@ -119,8 +119,8 @@ export default function Daftar() {
   return (
     <div>
       <Head>
-        <title>Credit</title>
-        <meta name="description" content="Resource used in this website" />
+        <title>Daftar</title>
+        <meta name="description" content="Isi formulir pendaftaran pondok" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
