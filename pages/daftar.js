@@ -121,7 +121,6 @@ export default function Daftar() {
       <Head>
         <title>Daftar</title>
         <meta name="description" content="Isi formulir pendaftaran pondok" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="overflow-hidden font-nunito flex flex-col">

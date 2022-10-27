@@ -18,7 +18,6 @@ export default function Readme() {
       <Head>
         <title>Fathul Ulum</title>
         <meta name="description" content="Pondok Pesantren Fathul Ulum" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="py-16 px-16 text-dark font-nunito text-lg flex flex-col items-center">
         <h1 className="font-bold text-2xl">Website Fathul Ulum</h1>
@@ -39,7 +38,7 @@ export default function Readme() {
         <section className="text-justify">
           <p className="italic text-center px-12 mb-5">
             Website Fathul Ulum merupakan landing page profil pondok pesantren
-            "Fathul Ulum" yang berisikan selayang pandang pondok pesantren
+            Fathul Ulum yang berisikan selayang pandang pondok pesantren
             Fathul Ulum. Website ini dibuat dengan gaya UI modern dan animasi
             elegan.
           </p>

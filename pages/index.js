@@ -13,7 +13,6 @@ export default function Home() {
       <Head>
         <title>Fathul Ulum</title>
         <meta name="description" content="Pondok Pesantren Fathul Ulum" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="overflow-hidden font-nunito flex flex-col">

@@ -101,7 +101,6 @@ export default function Credit() {
       <Head>
         <title>Credit</title>
         <meta name="description" content="Resource used in this website" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="overflow-hidden font-nunito flex flex-col">
