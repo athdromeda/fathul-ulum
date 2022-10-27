@@ -1,0 +1,30 @@
+.inputfield,
+.inputloc, .inputdate, .inputwali {
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #d3e4e1;
+}
+
+.inputfield:focus,
+.inputloc:focus, .inputdate:focus {
+    outline: none;
+    border-color: #1da58e;
+}
+
+.inputfield {
+    width: 100%;
+}
+
+.inputloc{
+    width: 50%;
+}
+
+.inputwali{
+    width: 100%;
+}
+
+.inputdate{
+    text-align: center;
+}
